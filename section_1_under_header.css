@@ -8,11 +8,11 @@
     background-size: fill;
     background-position: center;
     background-repeat: no-repeat;
+   
     
 }
 
 .left-sec-div{
-    
     font-size: 2em;
     display: flex;
     flex-direction: column;
@@ -33,17 +33,27 @@
 }
 
 .left-sec-div button{
-    background-image: url(./images/button.png);
+    background: url(./images/button.png);
     background-size: fill;
     filter:brightness(100);
     background-position: center;
     background-repeat: no-repeat;
     background-color: transparent;
     color: white;
+    
     font-size: 0.6em;
     font-weight: bold;
     width:200px;
    
     height: 50px;
     border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.left-sec-div button:hover{
+
+ 
+   transform: translatey(-5px) scale(1.05) rotate(-3deg);
+
 }

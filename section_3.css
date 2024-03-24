@@ -1,0 +1,92 @@
+.sec_3{
+    margin-top: 7em;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 10em;
+}
+.all-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5em;
+}
+
+.product{
+    
+    box-shadow: 2px 2px 5px gray;
+    padding: 20px;
+    border-radius: 10%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.product-img-div{
+    background-color: rgb(240, 236, 236,0.7);
+    border-radius: 20%;
+    width: 100%;
+    
+    margin: auto;
+
+}
+.black-shirt-img{
+    
+    width: 100%;
+   transition: 0.4s;
+}
+
+
+.black-shirt-img:hover{
+
+    transform: scale(1.2) rotate(-10deg);
+
+}
+
+
+.product .sex{
+    color: gray;
+    
+    
+}
+.product p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.product h4{
+   
+    margin-bottom: 10px;
+}
+
+.info-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-product .icon-div{
+    font-size: 2em;
+    color: green;
+    
+    padding: 10px;
+    border-radius: 100%;
+    background-color:rgb(214, 211, 211);
+    cursor: pointer;
+    transition: 2s;
+}
+.fa-cart-shopping{
+    transition: 0.3s;
+}
+.icon-div:hover > .fa-cart-shopping {
+
+transform: translatey(-5px) translatex(-5px) rotate(-30deg);
+
+}
+
