@@ -20,19 +20,23 @@
    
     align-items: center;
     justify-content: center;
-    margin-top: auto;
+    margin-top: 2em;
     min-height: 100%;
 }
 .left-sec-div h2{
     color: white;
-    margin-top: -0.5em;
+    margin-top: -1em;
 }
 .left-sec-div h1{
     font-size: 2em;
     color: rgb(59, 53, 53);
 }
+.left-sec-div h6{
+    color: rgb(205, 203, 203);
+    font-size: 0.6em;
+}
 
-.left-sec-div button{
+.buy-button_1{
     background: url(./images/button.png);
     background-size: fill;
     filter:brightness(100);
@@ -51,9 +55,14 @@
     transition: 0.2s;
 }
 
-.left-sec-div button:hover{
+.buy-button_1:hover{
 
  
    transform: translatey(-5px) scale(1.05) rotate(-3deg);
 
+}
+
+.fa-cart-shopping{
+    
+    color: rgb(40, 195, 40);
 }

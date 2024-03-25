@@ -4,14 +4,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10em;
+    gap: 2em;
 }
 .services-div{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 5em;
+    gap: 3em;
+   
+  
+   
 }
 
 
@@ -27,12 +30,12 @@
    
     justify-content: center;
     align-items: center;
-   box-shadow: 1px 1px 4px ;
    
-    width: 220px;
-    height: 200px;
-
-    
+   gap: 2em;
+    width: 250px;
+    height: 230px;
+    background-color: rgb(250, 235, 215);
+    border-radius: 20px;
    
    
 }
@@ -47,14 +50,22 @@
 }
 .services-div div img{
     
-
+    filter: drop-shadow(-5px -5px 4px white);
     width: 100px;
 }
 
-.span-ti{
+.span-black{
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    
+}
+
+.span-white{
+    background-color: white;
+    color: black;
+    padding: 6px;
     border-radius: 10px;
     
 }
