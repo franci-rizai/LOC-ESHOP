@@ -4,8 +4,8 @@
       "description": "Comfortable cotton T-shirt in White.",
       "price": 19.99,
       "sex": "Ανδρικό",
-      "sizes": ["S", "M", "L", "XL"],
-      "colors": ["White"],
+      "sizes": ["S", "M", "L"],
+      
       "images": ["./images/shirt_white.png"]
     },
     {
@@ -14,7 +14,7 @@
       "price": 29.99,
       "sex": "Ανδρικό",
       "sizes": ["S", "M", "L", "XL"],
-      "colors": ["Red/White", "Blue/White", "Green/White"],
+      
       "images": ["./images/striped-polo.avif"]
     },
     {
@@ -22,8 +22,8 @@
       "description": "Elegant black shirt for formal occasions.",
       "price": 39.99,
       "sex": "Ανδρικό",
-      "sizes": ["S", "M", "L", "XL"],
-      "colors": ["Black"],
+      "sizes": ["S", "M", "XL"],
+     
       "images": ["./images/shirt_black.webp"]
     },
     {
@@ -31,8 +31,8 @@
       "description": "Classic white button-down shirt for a polished look.",
       "price": 34.99,
       "sex": "Ανδρικό",
-      "sizes": ["S", "M", "L", "XL"],
-      "colors": ["White"],
+      "sizes": ["M", "L", "XL"],
+     
       "images": ["./images/poukamiso.avif"]
     }
 ]

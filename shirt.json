@@ -5,7 +5,7 @@
       "price": 19.99,
       "sex": "Ανδρικό",
       "sizes": ["S", "M", "L", "XL"],
-      "colors": ["White"],
+      
       "images": ["./images/shirt_white"]
     },
     {
@@ -14,7 +14,7 @@
       "price": 29.99,
       "sex": "Ανδρικό",
       "sizes": ["S", "M", "L", "XL"],
-      "colors": ["Red/White", "Blue/White", "Green/White"],
+      
       "images": ["./images/striped-polo.avif"]
     },
     {
@@ -23,7 +23,7 @@
       "price": 39.99,
       "sex": "Ανδρικό",
       "sizes": ["S", "M", "L", "XL"],
-      "colors": ["Black"],
+     
       "images": ["./images/tshirt.jpg"]
     },
     {
@@ -32,7 +32,63 @@
       "price": 34.99,
       "sex": "Ανδρικό",
       "sizes": ["S", "M", "L", "XL"],
-      "colors": ["White"],
+      
+      "images": ["./images/poukamiso.avif"]
+    },
+    {
+      "name": "Black Shirt",
+      "description": "Elegant black shirt for formal occasions.",
+      "price": 39.99,
+      "sex": "Ανδρικό",
+      "sizes": ["S", "M", "L", "XL"],
+      
+      "images": ["./images/shirt_black.webp"]
+    },
+    {
+      "name": "White Button-down Shirt",
+      "description": "Classic white button-down shirt for a polished look.",
+      "price": 34.99,
+      "sex": "Ανδρικό",
+      "sizes": ["S", "M", "L", "XL"],
+      
+      "images": ["./images/poukamiso.avif"]
+    },
+    {
+      "name": "Black Shirt",
+      "description": "Elegant black shirt for formal occasions.",
+      "price": 39.99,
+      "sex": "Ανδρικό",
+      "sizes": ["S", "M", "L", "XL"],
+      
+      "images": ["./images/shirt_black.webp"]
+    },
+    {
+      "name": "White Button-down Shirt",
+      "description": "Classic white button-down shirt for a polished look.",
+      "price": 34.99,
+      "sex": "Ανδρικό",
+      "sizes": ["S", "M", "L", "XL"],
+      
+      "images": ["./images/poukamiso.avif"]
+    },
+    {
+      "name": "Black Shirt",
+      "description": "Elegant black shirt for formal occasions.",
+      "price": 39.99,
+      "sex": "Ανδρικό",
+      "sizes": ["S", "M", "L", "XL"],
+     
+      "images": ["./images/shirt_black.webp"]
+    },
+    {
+      "name": "White Button-down Shirt",
+      "description": "Classic white button-down shirt for a polished look.",
+      "price": 34.99,
+      "sex": "Ανδρικό",
+      "sizes": ["S", "M", "L", "XL"],
+      
       "images": ["./images/poukamiso.avif"]
     }
+
+    
 ]

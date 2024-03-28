@@ -23,9 +23,11 @@
     <div class="index-div">
         <ul>
             <li>Αγορά</li>
+            <li>Blog</li>
            
-            <a style="color:white; text-decoration:none;" href="#footer"><li>Επικοινωνία & About</li></a>
-            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <a style="color:white; text-decoration:none;" href="#footer"><li>Επικοινωνία</li></a>
+            <li>Σχετικά</li>
+            <li>Βοήθεια</li>
         </ul>
     
 
@@ -148,42 +150,31 @@
     </div>
 </footer>
 
-    <script>
-        fetch("featured_shirt.json")
-        .then(response => response.json())
-        .then(data => {
-            // Iterate through each featured_shirt object
-            data.forEach(featured_shirt => {
-                let featured_shirtdiv = document.createElement('div');
-                featured_shirtdiv.classList.add('product');
-        
-                let featured_shirthtml = `
-                <div class="product-img-div">
-                    <img class="black-shirt-img" src="${featured_shirt.images[0]}">
-                </div>
-                <div>
-                    <h4>${featured_shirt.name}</h4>
-                </div>
-                <div class="info-product">
-                    <div>
-                        <p class="sex">${featured_shirt.sex}</p>
-                        <p>${featured_shirt.price}</p>
-                    </div>
-                    <div class="icon-div">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </div>
-                `;
-        
-                featured_shirtdiv.innerHTML = featured_shirthtml;
-                document.getElementById('all-products').appendChild(featured_shirtdiv);
-            });
-        })
-        .catch(error => {
-            console.error("Error fetching featured_shirt data:", error);
-        });
-        
+    <script src="feature.js">
+       
 
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Fetch shirt data from JSON file
+            fetch("shirt.json")
+              .then(response => response.json())
+              .then(data => {
+                data.forEach(shirt => {
+                  // Create a click event listener for each shirt
+                  document.getElementById(shirt.name).addEventListener("click", function() {
+                    // Construct URL with query parameters
+                    const url = `details.html?name=${encodeURIComponent(shirt.name)}&price=${encodeURIComponent(shirt.price)}&description=${encodeURIComponent(shirt.description)}&sex=${encodeURIComponent(shirt.sex)}&sizes=${encodeURIComponent(JSON.stringify(shirt.sizes))}&colors=${encodeURIComponent(JSON.stringify(shirt.colors))}&images=${encodeURIComponent(JSON.stringify(shirt.images))}`;
+                    // Redirect user to product detail page
+                    window.location.href = url;
+                  });
+                });
+              })
+              .catch(error => {
+                console.error("Error fetching shirt data:", error);
+              });
+          });
     </script>
 </body>
 </html>
